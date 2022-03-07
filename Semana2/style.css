@@ -1,0 +1,207 @@
+body{
+    background-color: #ADD8E6;
+
+
+}
+
+header ul{
+    margin: 0;
+    padding: 1rem;
+    list-style-type: none;
+    background-color: #364552;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+header li{
+    display: inline;
+    padding: 16px;
+    margin: 0;
+    text-decoration: none;
+}
+header li a img{
+    
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+header li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:  none;
+    color: white;
+}
+
+header li:hover{
+ background-color:#252f44;
+
+}
+#cuenta{
+   position: relative; 
+    right: -800px;
+}
+.content{
+    margin-top: 60px;
+}
+
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+.slider li{
+    list-style-type: none;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio {
+    
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left:-100% ;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+
+
+.Pasteles{
+
+    text-align: center;
+}
+.Pasteles ul{
+    margin: 30px;
+    padding: 10px;
+    width: 95%;
+    list-style-type: none;
+    overflow: hidden;
+    /* position: relative; */
+    
+}
+.Pasteles li{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 15px;
+    background-color: thistle;
+    margin: 5px;
+    overflow: hidden;
+    border: solid   #364552;
+    border-radius: 5px;
+    /* margin:5px;
+    border: solid 2px;
+    padding: 20px;
+    background-color: thistle; */
+}
+.Pasteles li:hover{
+    background-color:gray;
+    opacity: .6;
+   
+   }
+.Pasteles li p{
+    text-align: center;
+}
+.Pasteles li img{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    /* left: 0; */
+    /* top: 15px; */
+}
+
+
+.Datos_Pastel ul{
+
+    list-style-type: none;
+    
+}
+
+.Datos_Pastel li{
+
+    float: left;
+    margin: 10px;
+    background-color: thistle;
+    width: 600px;
+    height: 800px;
+}
+
+.Datos_Pastel li p{
+    text-align: center;
+    font-size: large;
+}
+
+.Datos_Pastel img{
+
+    width: 600px;
+}
+
+.Datos_Pastel div{
+
+    
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 600px;
+    height: 800px;
+    
+    background-color: thistle;
+
+}
+.Datos_Pastel p{
+
+    text-align: center;
+    padding: 15px;
+}
+.Datos_Pastel  h3{
+
+    text-align: center;
+    font-size: large;
+}
+
+
+.formulario form{
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 600px;
+    border: #364552 solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+.formulario form input{
+
+        
+        width: 200px;
+}
+
+header table,td, th{
+    width: 100px;
+    margin: 0;
+    border: #252f44 solid 1px;
+}
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pastelería la Real</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="inicio">
+           <ul>
+               <li><a >La Real</a></li>
+               <li><a href="#inicio">  Inicio </a></li>
+               <li><a href="#Pasteles">Pasteles</a></li>
+               <li><a href="#caracteristicas">Sabores y Decoraciones</a></li>
+               <li><a >Sobre Pedido</a></li>
+               
+           </ul>
+    </header>
+
+    <section class="content">
+
+        <article class="slider"> <ul>
+
+            <li><img src="images/marca2.png" alt=""></li>
+            <li><img src="images/Pastel.png" alt=""></li>
+            <li><img src="images/Pastel_2.png" alt=""></li>
+            <li><img src="images/Pastel_3.png" alt=""></li>
+
+        </ul></article>
+
+        <article id="Pasteles"class="Pasteles">
+
+            <h2>Pasteles</h2>
+           <br>
+            <ul>
+                <li>
+                    <p>Pastel de Chocolate- $195</p>
+                    <img src="/images/chocolate (2).jpg" alt="">
+                </li>
+                <li>
+                    <p>Pastel Imposible - $200</p>
+                    <img src="/images/Imposible.jpg" alt="">
+                    
+                </li>
+                <li>
+                    <p> Pay de limon - $150</p>
+                    <img src="/images/pay.jpg" alt="">
+             
+                </li>
+                <li>
+                    <p>Pastel de 3 leches - $300</p>
+                    <img src="/images/3_leches.jpg" alt="">
+                </li>
+
+                <li>
+                    <p>Pastel  Especial - $199</p>
+                    <img src="/images/especial.jpg" alt="">
+                  
+                </li>
+
+            </ul>
+
+        </article>
+
+        <article id="caracteristicas" class="Datos_Pastel">
+
+            <p></p>
+            <p></p>
+            <h2>Sabores</h2>
+            <ul>
+                <li><p>Sabores de Bizcocho más Populares</p>
+                    <img src="/images/sabores_bizcocho.jpg" alt="">
+                </li>
+                <li> <p>Sabores de relleno más Populares </p>
+                    <img src="/images/Sabores_Relleno.png" alt="">
+                 </li>
+            </ul>
+            
+            <h2>Decoraciones</h2>
+            <div>
+               
+
+                <p>Nuestras Decoraciones</p>
+                <img src="/images/decoraciones.png" alt="">
+
+                
+            </div>
+        </article>
+
+        <article class="formulario">
+
+            <h2>Sobre Pedido</h2>
+
+            <form action="">
+                <p>Tus datos:</p>
+                <label for="name">Nombre Completo</label>
+                <input type="text" id="name" name="name" value="Nombre"> <br><br>
+                <label for="tel1">Teléfono</label>
+                <input type="tel" id="tel1" name="tel1" value="Telefono" maxlength="10"><br><br>
+                <label for="email">Correo Electronico</label>
+                <input type="email" id="email" name="email" value="Correo Electronico" ><br><br>
+                <label for="fecha"> Fecha de Entrega</label>
+                <input type="date" id="fecha" name="fecha">
+                <hr>
+
+                Selecciona el sabor de tu Bizcocho(Base del Pastel):
+                <input type="radio" id="sabor1" name="sabor" value="Vainilla">
+                <label for="sabor1">Vainilla</label><br>
+                <input type="radio" id="sabor2" name="sabor" value="Fresa">
+                <label for="sabor2">Fresa</label><br>
+                <input type="radio" id="sabor3" name="sabor" value="Chocolate">
+                <label for="sabor3">Chocolate</label><br>
+                <input type="radio" id="sabor4" name="sabor" value="Limon">
+                <label for="sabor4">Limon</label><br>
+                <hr>
+
+                 Selecciona el sabor de tu relleno:
+                <input type="radio" id="relleno1" name="relleno" value="Ganche">
+                <label for="sabor1">Ganche</label><br>
+                <input type="radio" id="relleno2" name="relleno" value="Mermelada">
+                <label for="sabor1">Mermelada</label><br>
+                <input type="radio" id="relleno3" name="relleno" value="Crema">
+                <label for="sabor1">Crema para batir</label><br>
+                <hr>
+                Selecciona tus adornos:
+                <br>
+                <input type="checkbox" id="adorno1" name="adorno1" value="Chantilly">
+                <label for="adorno1">Chantilly</label><br>
+                <input type="checkbox" id="adorno2" name="adorno2" value="Caramelo">
+                <label for="adorno2">Caramelo</label><br>
+                <input type="checkbox" id="adorno3" name="adorno3" value="Frutas">
+                <label for="adorno3">Frutas</label><br>
+                <input type="checkbox" id="adorno4" name="adorno4" value="Merengue">
+                <label for="adorno4">Merengue</label><br>
+                <input type="checkbox" id="adorno5" name="adorno5" value="Fondant">
+                <label for="adorno5">Fondant</label><br>
+                <hr>
+                
+            </form>
+
+        </article>
+
+        
+        
+       
+    </section>
+
+    <footer>
+
+        <a href="admin.html">Vista Administrador</a>
+    </footer>
+
+
+
+</body>
+</html>
