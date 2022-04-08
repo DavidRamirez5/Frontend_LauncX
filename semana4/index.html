@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body >
+    <!-- Requisistos  
+        - Tener un input de entrada, donde se meta el nombre del pokemon a buscar.
+        - Tomar ese input e ir a consultar el API de pokeapi
+
+        Mostrar en pantalla los siguentes datos del pokemon
+        - Nombre check
+        - Imagen check
+        - Tipo de pokemon check 
+        - Estadisticas
+        - Movimientos
+    -->
+    
+    <div class="contenedor">
+        <header > <img src="./images/pokedex.png" alt=""> </header>
+        <div class="contenido">
+            <div class="pokeball"> <img id="pokeimg" src="./images/pokeball.png" alt=""> 
+            <div class="circulo"></div>
+             <div class="barra barra-1"></div>
+             <div class="barra barra-2"></div>   
+        </div>
+            <label for="poke"></label>
+            <input type="text" id="poke" placeholder="Introduce un Pokemon" class="texto">
+            <input type="submit" value="Buscar" id="buscar" class="boton">
+            
+        </div>
+        <div id="instrucciones" class="caracteristicas "> 
+             
+            
+    
+                
+            <div  class="box " ></div>  
+
+                
+                                        
+                                        
+                                         <h1>Bienvenido a la Poke Virtual</h1> 
+        
+                                        <p>En este sitio web podrás buscar el Pokémon que más te guste <br>
+                                        y eoncotrar información sobre este como:</p>
+                                        <ul>
+                                            <li>Su aspecto</li>
+                                            <li>Tipo</li>
+                                            <li>Estadísticas</li>
+                                            <li>Habilidades</li>
+                                        </ul>
+                                        <h2>Instrucciones.</h2>
+                                        <p>Para buscar simplemente escrive el nombre del pokemon <br>
+                                            en la barra izquierda y presiona buscar</p> <br> 
+                                        <div class="box"></div>  
+        </div>
+        <footer> pie de pagina</footer>
+    </div>
+  
+
+    <!-- <label for="poke"></label>
+    <input type="text" id="poke">
+    <input type="submit" value="Buscar" id="buscar"> -->
+</body>
+<script src="./main.js"></script>
+</html>

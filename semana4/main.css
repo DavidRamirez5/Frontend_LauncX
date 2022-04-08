@@ -1,0 +1,188 @@
+body{
+    background: url("./images/fondo.jpg");
+    color: white;
+    margin: 0;
+}
+
+.contenedor{
+    display: grid;
+    grid-gap: 10px;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 80px 470px 60px;
+    grid-template-areas: 'header header'
+                         'contenido caracteristicas'
+                         'footer footer'  ;
+}
+header{
+    grid-area: header;
+    background-color: #191919;
+    text-align: center; 
+}
+
+header img{
+    width: 15%;
+}
+
+
+
+
+.contenido{
+    grid-area: contenido;
+    margin: 0 15px;
+}
+
+
+
+.caracteristicas{
+    grid-area: caracteristicas;
+    margin: 0 15px;
+    background-color: rgba(255,0, 0,0.7);
+    border: solid #5877AC;
+    border-radius: 70px ;
+}
+.caracteristicas h1{
+    text-align: center;
+}
+.caracteristicas p,li,h2{
+    font-size: 20px;
+    padding: 0px 15px;
+}
+.box{
+    margin: 10px auto;
+    width: 300px;
+    height: 5px;
+    background-color: #FFCC03;
+    border-radius: 5px;
+    border: #5877AC solid 3px;
+}
+.pokeball{
+    width: 60%;
+    height: 70%;
+    margin: 30px auto;
+    background-color: #E6E6E690;
+    border-radius: 45px;
+    text-align: center;
+}
+.pokeball img{
+    margin: 20px 0px 0px 0px;
+    width: 250px;
+    
+}
+.pokeball .circulo{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: solid 3px black;
+    background-color:#FEF445 ;
+    position: relative;
+    left: 15px;
+
+}
+.pokeball .barra{
+    width: 80px;
+    margin: 2px;
+    height: 10px;
+    border-radius: 3px;
+    border: solid 3px black;
+    background-color:#FEF445 ;
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+
+}
+.pokeball .barra-1{
+    background-color: #2D9BF0;
+}
+.pokeball .barra-2{
+    background-color: red;
+}
+
+.contenedor2{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 40px 250px 30px;
+    grid-template-columns: 250px 250px;
+    justify-content: center;
+    align-content: center;
+
+    grid-template-areas:
+                         'name           name'
+                         'estadisticas  habilidades'
+                         'tipo          tipo';
+                         
+    
+}
+
+
+.contenedor2 .comun{
+    color: #191919;
+    background-color: #FFCC03;
+    border: 4px solid #5877AC;
+    /* text-align: center;  */
+    border-radius: 15px;
+
+}
+.contenedor2 h1{
+    position: relative;
+    bottom: 30px;
+}
+.contenedor2  h2{
+    text-align: center;
+}
+.contenedor2  h3{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+.contenedor2 .name{
+    position: relative;
+    top: 20px;
+    grid-area: name;
+    padding: 8px;
+    font-weight: solid;
+    
+  
+}
+.contenedor2 .estadisticas{
+    position: relative;
+    top: 60px;
+    grid-area: estadisticas;
+    
+    
+}
+.contenedor2 .habilidades{
+
+    grid-area: habilidades;
+    position: relative;
+    top: 60px;
+}
+.contenedor2 .tipo{
+
+    grid-area: tipo;
+    background-color: #FFCC03;
+    position: relative;
+    top: 90px;
+}
+footer{
+    grid-area: footer;
+    background-color: cadetblue;
+} 
+
+.contenedor .boton{
+    color: white;
+    width: 100px;
+    background-color:#5877AC;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 2px 2px 4px rgba(255,255, 255,0.7);
+}
+
+.contenedor .texto{
+    background-color: rgba(255,0, 0,0.6);
+    border-radius: 3px;
+    border: 2px solid #5877AC;
+    height: 20px;
+ 
+}
+::placeholder { color: white; }
